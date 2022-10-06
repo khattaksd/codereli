@@ -44,7 +44,7 @@ export const SiteMetadata = {
   },
   location: 'Rivendell, Middle Earth',
   latlng: [-33.86785, 151.20732] as [number, number],
-  repository: 'https://github.com/hellotham/hello-astro',
+  repository: 'https://github.com/khattaksd/codereli',
   social: [
     {
       name: 'Email',
@@ -154,7 +154,7 @@ export function authorDetail(author: string | undefined) {
 
 export const PAGE_SIZE = 6
 
-export const GITHUB_EDIT_URL = `https://github.com/hellotham/hello-astro`
+export const GITHUB_EDIT_URL = `https://github.com/khattaksd/codereli`
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
 
