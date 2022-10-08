@@ -19,8 +19,8 @@ export default defineConfig({
       external: ['svgo'],
     },
   },
-  site: 'https://www.codereli.com',
-  base: '/',
+  site: `${import.meta.env.DEPLOY_SITE}`,
+  base: '/codereli',
   integrations: [tailwind(), sitemap(), image(), mdx(), alpinejs(), robotsTxt()],
   experimental: {
     integrations: true,
