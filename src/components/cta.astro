@@ -9,28 +9,26 @@ import { SiteMetadata } from '../config'
     <h2
       class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl"
     >
-      <span class="block dark:text-white">Ready to give it a try?</span>
-      <span class="block text-purple-600 dark:text-purple-300"
-        >Use the starter on Github today.
-      </span>
+      <span class="block dark:text-white">Convinced?</span>
+      <span class="block text-purple-600 dark:text-purple-300">Lets Talk!</span>
     </h2>
     <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div class="inline-flex rounded-md shadow">
         <a
-          href={SiteMetadata.repository + '/generate'}
+          href={import.meta.env.BASE_URL + 'contact'}
           class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-pink-600"
         >
-          Use Template
+          Contact
         </a>
       </div>
       <div class="ml-4 lg:ml-3 inline-flex rounded-md shadow">
         <a
-          href={SiteMetadata.repository}
+          href={import.meta.env.BASE_URL + 'blog'}
           rel="noopener noreferrer"
           target="_blank"
           class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-100"
         >
-          Github Repo
+          Read More
         </a>
       </div>
     </div>

@@ -25,30 +25,30 @@ export interface TagType {
 }
 
 export const SiteMetadata = {
-  title: 'Hello Astro',
-  description: 'An Astro starter for corporate/marketing/blog websites.',
+  title: 'Codereli',
+  description: 'Contact Codereli for all your small business technology needs.',
   author: {
-    name: 'Chris Tham',
-    twitter: '@chris1tham',
-    url: 'https://christham.net',
-    email: 'chris@christham.net',
-    summary: 'Outrageous actualiser.',
+    name: 'Salman Khattak',
+    twitter: '@khattaksd',
+    url: 'https://codereli.com',
+    email: 'salman@codereli.com',
+    summary: '',
   },
   org: {
-    name: 'Hello Tham',
-    twitter: '@hellothamcom',
-    url: 'https://hellotham.com',
-    email: 'info@hellotham.com',
+    name: 'Codereli',
+    twitter: '@codereli',
+    url: 'https://codereli.com',
+    email: 'info@codereli.com',
     summary:
-      'Hello Tham is a boutique management consulting firm. We specialise in Business and IT strategies, operating models, strategic roadmaps, enterprise architecture, analytics and business process design.',
+      'Codereli is a managed systems consulting firm. We specialise in Business and IT strategies, operating models, strategic roadmaps, enterprise architecture, analytics and business process design.',
   },
-  location: 'Rivendell, Middle Earth',
-  latlng: [-33.86785, 151.20732] as [number, number],
+  location: '110 James St, St. Catharines, ON L2R 7E8',
+  latlng: [43.1600375, -79.2465686] as [number, number],
   repository: 'https://github.com/khattaksd/codereli',
   social: [
     {
       name: 'Email',
-      link: 'mailto:info@hellothamcom',
+      link: 'mailto:info@codereli.com',
       icon: 'envelope',
     },
     {
@@ -56,31 +56,31 @@ export const SiteMetadata = {
       link: '555-5555',
       icon: 'telephone',
     },
-    {
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/hellothamcom',
-      icon: 'linkedin',
-    },
-    {
-      name: 'Facebook',
-      link: 'https://www.facebook.com/hellothamcom',
-      icon: 'facebook',
-    },
-    {
-      name: 'Instagram',
-      link: 'https://www.instagram.com/hellothamcom',
-      icon: 'instagram',
-    },
-    {
-      name: 'Twitter',
-      link: 'https://twitter.com/hellothamcom',
-      icon: 'twitter',
-    },
-    {
-      name: 'Github',
-      link: 'https://github.com/hellothamcom',
-      icon: 'github',
-    },
+    // {
+    //   name: 'LinkedIn',
+    //   link: 'https://www.linkedin.com/coderelicom',
+    //   icon: 'linkedin',
+    // },
+    // {
+    //   name: 'Facebook',
+    //   link: 'https://www.facebook.com/coderelicom',
+    //   icon: 'facebook',
+    // },
+    // {
+    //   name: 'Instagram',
+    //   link: 'https://www.instagram.com/coderelicom',
+    //   icon: 'instagram',
+    // },
+    // {
+    //   name: 'Twitter',
+    //   link: 'https://twitter.com/coderelicom',
+    //   icon: 'twitter',
+    // },
+    // {
+    //   name: 'Github',
+    //   link: 'https://github.com/coderelicom',
+    //   icon: 'github',
+    // },
   ],
   buildTime: new Date().toString(),
 }
@@ -129,17 +129,17 @@ export function categoryDetail(category: string | undefined) {
 }
 export const AuthorDetail = [
   {
-    name: 'Chris Tham',
-    description: 'Hello World',
-    contact: 'chris@christham.net',
-    image: '../images/authors/Chris Tham.jpg'
+    name: 'Salman Khattak',
+    description: 'Chief Technology Officer CTO',
+    contact: 'salman@codereli.com',
+    image: '../images/authors/default.png'
   }
 ]
 
 export const DefaultAuthor = {
-  name: 'Hello Astro',
+  name: 'Default Author',
   image: '../images/authors/default.png',
-  contact: 'info@hellotham.com',
+  contact: 'info@codereli.com',
   description: 'Astronaut'
 }
 
